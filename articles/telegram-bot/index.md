@@ -35,15 +35,15 @@ Our second step would be to create a new bot on Telegram and get API keys for th
 
 Now, click on this [link](https://t.me/botfather) and open up BotFather.
 
-![Create a New Bot](/telegram-bot/images/newbot.png)
+![Create a New Bot](/articles/telegram-bot/images/newbot.png)
 
 Create a new bot by entering the command, ```\newbot```
 
-![Bot Username](/telegram-bot/images/botusername.png)
+![Bot Username](/articles/telegram-bot/images/botusername.png)
 
 Enter a display name for the bot and hit enter. Now choose a username for the bot.
 
-![Bot Success](/telegram-bot/images/botsuccess.png)
+![Bot Success](/articles/telegram-bot/images/botsuccess.png)
 
 There! You have successfully created the bot! The API Token and the bot link are given. Store it securely as we'd need it soon.
 
@@ -62,7 +62,7 @@ To access posts from Reddit, we'll be using the **Reddit API** and the python li
 - Create a new reddit account.
 - Go to [App Preferences](https://www.reddit.com/prefs/apps/), and click on ```create app```.
 
-![Reddit Credentials](/telegram-bot/images/redditcreds.png)
+![Reddit Credentials](/articles/telegram-bot/images/redditcreds.png)
 
 - Give the desired app **name**, and select the sub-option ```script``` from the radio buttons.
 - Enter a short **description**.
@@ -225,7 +225,7 @@ Let us deploy it on Heroku so that it runs 24x7!
 - Go to [Heroku Dashboard](https://dashboard.heroku.com/) and create a new account.
 - Create a new heroku app.
 
-![Heroku Dash](/telegram-bot/images/herokudash.png)
+![Heroku Dash](/articles/telegram-bot/images/herokudash.png)
 
 - Go to the **Deploy** Tab, and select **GitHub** as the deployment method.
 - Now search for your GitHub Repository and enable **auto deploy**.

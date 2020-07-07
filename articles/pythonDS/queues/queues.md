@@ -14,7 +14,7 @@ In Part 4 of this series, let's dive into Queues, a data structure that stores d
 
 A Queue is a linear data structure in which data is stored in a **First In, First Out** manner. In a queue the item that was added the earliest is removed first. The item that was added more recently is removed last. A queue can be compared to a real-life queue.
 
-![Queue, Diagram](/pythonDS/queues/images/queue.png)
+![Queue, Diagram](/articles/pythonDS/queues/images/queue.png)
 
 ```enqueue``` is a queue operation where you add an item at the back of a queue.
 

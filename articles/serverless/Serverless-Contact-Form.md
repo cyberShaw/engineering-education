@@ -1,6 +1,6 @@
 # Build a Serverless Contact Form with Google Cloud Functions
 
-![Google Cloud Functions and Firebase, Logos](/serverless/images/logos.png)
+![Google Cloud Functions and Firebase, Logos](/articles/serverless/images/logos.png)
 
 In this post, let’s get a quick hands on and take a look at how to write and deploy a serverless function.
 
@@ -151,11 +151,11 @@ Before venturing out to write our main function, we need some API Tokens and Key
 
 We need to start up a new project in Firebase. Project in Firebase are Google Cloud Platform projects that use <strong>Firebase</strong> services. This means that — Billing and permissions for projects are shared across consoles. A project is like a container with a unique project ID assigned to it.
 
-![Firebase, Dashboard](/serverless/images/dashboard.jpeg)
+![Firebase, Dashboard](/articles/serverless/images/dashboard.jpeg)
 
 Once you’ve started a new project, we need to obtain the API keys and tokens. On the left pane, click the <strong>Settings</strong> icon -> <strong>Project Settings</strong> and select <strong>Service Accounts</strong> tab.
 
-![Firebase, Settings](/serverless/images/settings.png)
+![Firebase, Settings](/articles/serverless/images/settings.png)
 
 Now, select <strong>Node.js</strong> and <strong>Generate Private Key</strong>, to generate the admin credentials private key in JavaScript. This private key is used to authenticate us as the admin of the project and give us various permissions. Download the generated private key and store it safely. We would need to import this file later while writing our Cloud Function.
 
@@ -278,7 +278,7 @@ Now let’s check whether our function is called whenever we click the <strong>S
 
 On the Google Cloud Platform Console, search for StackDriver Logging. You can find it in the Firebase Console also.
 
-![Settings, Function Logs](/serverless/images/functions.png)
+![Settings, Function Logs](/articles/serverless/images/functions.png)
 
 ### <strong>Profit?!</strong>
 

@@ -2,7 +2,7 @@
 
 Python. Beautiful, concise, simple are some words that come to mind when one says the word ✨. [Python](https://www.python.org/) is a high-level, interpreted and dynamic programming language, created by Guido van Rossum in 1991.
 
-![Python, Comic](/pythonDS/Introduction/images/py-comic.png)
+![Python, Comic](/articles/pythonDS/Introduction/images/py-comic.png)
 
 Python is used everywhere. It is used for general purpose programming, scripting, for the web, artificial intelligence and more. The possibilities are endless.
 
