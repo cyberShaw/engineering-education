@@ -31,7 +31,7 @@ Let us look at how web applications are structured and some of the most used web
 
 The end user can visualize a website, with various buttons, content and links that behave beautifully and serve content that they request. The framework that works behind the scenes to manage this plethora of different content and programs interacting with each other could be termed as an ***architecture***.
 
-![csr, ssr](/articles/web-application-architecture-101/images/csr-ssr.webp)
+![csr, ssr](/articles/web-application-architectures-101/images/csr-ssr.webp)
 
 ### Components of a Web Application
 

@@ -52,7 +52,7 @@ Here, the *display: flex* property defines the parent container to be the elemen
 
 ### Main-Axis, Cross-Axis
 
-![Flexbox, diagram](/articles/css-flexbox/flex-diag.png)
+![Flexbox, diagram](/articles/css-flexbox/images/flex-diag.png)
 
 Flex has a two-coordinate axis system. The horizontal axis is referred to as the **main-axis** and the vertical axis is referred to as the **cross-axis**. To stretch across the main axis, **justify** properties are used. To set the cross-axis alignment, **align** properties are used.
 
@@ -145,7 +145,7 @@ Flex has a two-coordinate axis system. The horizontal axis is referred to as the
 
 Our goal is to generate a simple image grid as shown.
 
-![Image Grid](/articles/css-flexbox/img-grid.png)
+![Image Grid](/articles/css-flexbox/images/img-grid.png)
 
 Let's start by writing the markup.
 

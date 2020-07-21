@@ -20,7 +20,7 @@ One more downside to this is that since a virtual machine is an **Infrastructure
 
 Enter, Serverless Functions :D
 
-![Serverless](/articles/serverless-api-firebase/serverless.jpeg)
+![Serverless](/articles/serverless-api-firebase/images/serverless.jpeg)
 
 No, it's not like you think. Serverless functions do run in a server. But they're called so because it eliminates the need for managing the software and hardware of the server. It is as simple as copying and pasting code and hitting **deploy**.
 
@@ -33,7 +33,7 @@ Let's get started. First, please install Node from [here](https://nodejs.org/en/
 - Now, once you're done installing, let's initialize our project. 
 - Create a new directory for your project. 
 - Open up a terminal the project directory and type, ```npm init```
-![Node Initialization](/articles/serverless-api-firebase/npm-setup.png)
+![Node Initialization](/articles/serverless-api-firebase/images/npm-setup.png)
 - For now, accept the default options and let the project be initialized.
 - Install firebase by typing, ```npm install -g firebase-tools```
 - Awesome!
@@ -50,14 +50,14 @@ Let's get started. First, please install Node from [here](https://nodejs.org/en/
 
 - Let's initialize a project in firebase.
 - Type, ```firebase init```
-![Firebase Initialization](/articles/serverless-api-firebase/firebase-init.png)
+![Firebase Initialization](/articles/serverless-api-firebase/images/firebase-init.png)
 - When it asks for what CLI features are needed, just choose Firebase Functions for now.
-![Firebase Setup](/articles/serverless-api-firebase/functions-setup.png)
+![Firebase Setup](/articles/serverless-api-firebase/images/functions-setup.png)
 - It would ask to connect to a project, create a new one and drop in a name of your choice.
 - Choose **```JavaScript```** as the language for functions.
 - Choose to not use ```ESLint``` as we don't really need it now.
 - Now, our firebase project is ready!
-![Project Setup](/articles/serverless-api-firebase/project-setup.png)
+![Project Setup](/articles/serverless-api-firebase/images/project-setup.png)
 
 ### Let's write the API
 
@@ -111,7 +111,7 @@ We have to specify the function dependencies in our **package.json**. Now procee
 
 Let's deploy our function! Enter the command, ```firebase deploy``` in the terminal.
 
-![Firebase, Deploy](/articles/serverless-api-firebase/deploy.png)
+![Firebase, Deploy](/articles/serverless-api-firebase/images/deploy.png)
 
 You have successfully deployed the API! Yay! Now get your API URL from the [Firebase Console](https://console.firebase.google.com).
 
@@ -123,7 +123,7 @@ Install and open postman, and with the request type as GET, enter the URL of you
 
 You'd get a response that looks something like this.
 
-![API Response](/articles/serverless-api-firebase/api-res.png)
+![API Response](/articles/serverless-api-firebase/images/api-res.png)
 
 The API works really well. You could also try to send a request to "/hello" and check it out.
 
